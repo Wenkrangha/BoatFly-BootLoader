@@ -6,7 +6,7 @@
 
   <groupId>com.wenkrang</groupId>
   <artifactId>BoatFly-BootLoader</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>BoatFly-BootLoader</name>
@@ -44,7 +44,7 @@
     <resources>
       <resource>
         <directory>src/main/resources</directory>
-        <filtering>true</filtering>
+        <filtering>false</filtering>
       </resource>
     </resources>
   </build>
