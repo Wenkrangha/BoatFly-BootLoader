@@ -1,0 +1,4 @@
+name: BoatFly-BootLoader
+version: '${project.version}'
+main: com.wenkrang.boatflybootloader.BoatFly_BootLoader
+api-version: '1.20'
