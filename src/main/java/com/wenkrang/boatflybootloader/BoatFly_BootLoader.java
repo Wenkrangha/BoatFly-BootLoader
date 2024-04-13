@@ -10,6 +10,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Objects;
 
 public final class BoatFly_BootLoader extends JavaPlugin {
 
@@ -18,7 +19,7 @@ public final class BoatFly_BootLoader extends JavaPlugin {
         // Plugin startup logic
         MainData.plugin = getPlugin(BoatFly_BootLoader.class);
         MainData.PluginFile = getFile();
-        // Plugin startup logic
+        Objects.requireNonNull(BoatFly_BootLoader.getPlugin(BoatFly_BootLoader.class).getCommand("bl")).setExecutor(new bootloader());
         if (true) {
             if (!getFile().toPath().toString().contains("version")) {
                 try {

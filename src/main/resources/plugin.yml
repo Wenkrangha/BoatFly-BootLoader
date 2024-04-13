@@ -2,3 +2,7 @@ name: BoatFly-BootLoader
 version: '${project.version}'
 main: com.wenkrang.boatflybootloader.BoatFly_BootLoader
 api-version: '1.20'
+commands:
+  bl:
+    description: Spigot版本的飞船插件加载器的主命令
+    usage: /bl

@@ -21,6 +21,5 @@ public class MainData {
     public static File PluginFile = null;
     //该变量用于储存版本号
     public static int Number = 2;
-    //该变量用于储存所有BoatFly添加的配方的Key
-    public static ArrayList<NamespacedKey> keys = new ArrayList<>();
+
 }
