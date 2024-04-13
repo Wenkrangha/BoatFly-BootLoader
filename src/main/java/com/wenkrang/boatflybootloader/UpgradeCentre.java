@@ -1,7 +1,5 @@
 package com.wenkrang.boatflybootloader;
 
-import com.wenkrang.boatfly.BoatFly;
-import com.wenkrang.boatfly.lib.UnsafeDownloader;
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.Plugin;
@@ -10,7 +8,6 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.io.*;
 import java.net.InetAddress;
 
-import static com.wenkrang.boatfly.Data.MainData.keys;
 import static org.bukkit.Bukkit.getServer;
 
 public class UpgradeCentre {
