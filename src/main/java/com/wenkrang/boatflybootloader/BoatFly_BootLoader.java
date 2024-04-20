@@ -19,7 +19,6 @@ public final class BoatFly_BootLoader extends JavaPlugin {
         // Plugin startup logic
         MainData.plugin = getPlugin(BoatFly_BootLoader.class);
         MainData.PluginFile = getFile();
-        Objects.requireNonNull(BoatFly_BootLoader.getPlugin(BoatFly_BootLoader.class).getCommand("bl")).setExecutor(new bootloader());
         if (true) {
             if (!getFile().toPath().toString().contains("version")) {
                 try {
