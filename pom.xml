@@ -6,7 +6,7 @@
 
   <groupId>com.wenkrang</groupId>
   <artifactId>BoatFly-BootLoader</artifactId>
-  <version>Release</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>BoatFly-BootLoader</name>
