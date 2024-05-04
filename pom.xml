@@ -9,7 +9,7 @@
   <version>Release</version>
   <packaging>jar</packaging>
 
-  <name>BoatFly-Spigot</name>
+  <name>BoatFly-BootLoader</name>
 
   <properties>
     <java.version>1.8</java.version>
