@@ -6,10 +6,10 @@
 
   <groupId>com.wenkrang</groupId>
   <artifactId>BoatFly-BootLoader</artifactId>
-  <version>1.0</version>
+  <version>Release</version>
   <packaging>jar</packaging>
 
-  <name>BoatFly-BootLoader</name>
+  <name>BoatFly-Spigot</name>
 
   <properties>
     <java.version>1.8</java.version>
