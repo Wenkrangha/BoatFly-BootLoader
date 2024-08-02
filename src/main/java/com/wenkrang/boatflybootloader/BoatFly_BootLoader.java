@@ -44,6 +44,7 @@ public final class BoatFly_BootLoader extends JavaPlugin {
                                 i = Integer.parseInt(s);
 
                             }catch (Exception ex) {
+                                file.delete();
                                 init.upgrade();
                                 ConsoleLoger.error("./plugins/BoatFly/version/" + MainData.PluginName);
                             }
