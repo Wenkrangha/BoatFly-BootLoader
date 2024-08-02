@@ -39,9 +39,14 @@ public final class BoatFly_BootLoader extends JavaPlugin {
                             FileReader fr = new FileReader(file);
                             BufferedReader br = new BufferedReader(fr);
                             String s = br.readLine();
+                            int i = 0;
+                            try {
+                                i = Integer.parseInt(s);
 
-                            int i = Integer.parseInt(s);
-
+                            }catch (Exception ex) {
+                                init.upgrade();
+                                ConsoleLoger.error("./plugins/BoatFly/version/" + MainData.PluginName);
+                            }
                             if (MainData.Number > i) {
                                 init.upgrade();
                             }
